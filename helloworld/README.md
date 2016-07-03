@@ -11,8 +11,6 @@ App runs on [http://hello-go-helloworld.local.pcfdev.io](http://hello-go-hellowo
 ## Running locally
 
 ```
-$ export VCAP_APPLICATION={}
-$ export VCAP_SERVICES={}
 $ go run helloworld.go
 ```
 App runs on [http://localhost:4000](http://localhost:4000)

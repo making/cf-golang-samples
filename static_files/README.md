@@ -11,8 +11,6 @@ App runs on [http://hello-go-staticfiles.local.pcfdev.io](http://hello-go-static
 ## Running locally
 
 ```
-$ export VCAP_APPLICATION={}
-$ export VCAP_SERVICES={}
 $ go run staticfiles.go
 ```
 
