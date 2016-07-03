@@ -15,3 +15,5 @@ $ export VCAP_APPLICATION={}
 $ export VCAP_SERVICES={}
 $ go run staticfiles.go
 ```
+
+App runs on [http://localhost:4000](http://localhost:4000)
