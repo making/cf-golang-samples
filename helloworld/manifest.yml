@@ -1,0 +1,5 @@
+applications:
+- name: hello-go-helloworld
+  memory: 8m
+  buildpack: go_buildpack
+  command: helloworld
