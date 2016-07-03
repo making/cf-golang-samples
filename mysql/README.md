@@ -22,7 +22,7 @@ App runs on [http://hello-go-mysql-{random-word}.cfapps.io](http://hello-go-mysq
 ```
 $ export VCAP_APPLICATION={}
 $ export VCAP_SERVICES='{"p-mysql":[{"credentials":{"uri":"mysql://root:@localhost:3306/demo"},"name":"mysql-db"}]}'
-$ go run main.go
+$ go run mysql.go
 ```
 
 App runs on [http://localhost:4000](http://localhost:4000)
