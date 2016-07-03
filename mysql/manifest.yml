@@ -2,6 +2,6 @@ applications:
 - name: hello-go-mysql
   memory: 32m
   buildpack: go_buildpack
-  command: hello-go-mysql
+  command: mysql
   services:
   - mysql-db

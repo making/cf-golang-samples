@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/making/hello-go-mysql",
+	"ImportPath": "github.com/making/cf-go-samples/mysql",
 	"GoVersion": "go1.6",
 	"GodepVersion": "v61",
 	"Deps": [
