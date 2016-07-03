@@ -1,0 +1,21 @@
+{
+	"ImportPath": "github.com/making/hello-go-mysql",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v61",
+	"Deps": [
+		{
+			"ImportPath": "github.com/cloudfoundry-community/go-cfenv",
+			"Comment": "v1.12-2-gb4bebec",
+			"Rev": "b4bebec47a425334d2a076cf99329464c9e611f3"
+		},
+		{
+			"ImportPath": "github.com/go-sql-driver/mysql",
+			"Comment": "v1.2-196-g3654d25",
+			"Rev": "3654d25ec346ee8ce71a68431025458d52a38ac0"
+		},
+		{
+			"ImportPath": "github.com/mitchellh/mapstructure",
+			"Rev": "281073eb9eb092240d33ef253c404f1cca550309"
+		}
+	]
+}
