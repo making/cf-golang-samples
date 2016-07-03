@@ -1,0 +1,7 @@
+applications:
+- name: hello-go-redis
+  memory: 32m
+  buildpack: go_buildpack
+  command: redis
+  services:
+  - redis-db
