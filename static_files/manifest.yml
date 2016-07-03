@@ -1,0 +1,5 @@
+applications:
+- name: hello-go-staticfiles
+  memory: 16m
+  buildpack: go_buildpack
+  command: static_files
