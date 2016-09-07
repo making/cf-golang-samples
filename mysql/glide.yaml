@@ -1,0 +1,4 @@
+package: github.com/making/cf-go-samples/mysql
+import:
+- package: github.com/cloudfoundry-community/go-cfenv
+- package: github.com/go-sql-driver/mysql

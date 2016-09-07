@@ -1,5 +1,7 @@
 applications:
 - name: hello-go-staticfiles
   memory: 16m
-  buildpack: go_buildpack
-  command: static_files
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git#v1.7.12  
+  env:
+    GOVERSION: go1.7
+

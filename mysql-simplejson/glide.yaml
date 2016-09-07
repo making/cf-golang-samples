@@ -1,0 +1,4 @@
+package: github.com/making/cf-go-samples/mysql-simplejson
+import:
+- package: github.com/bitly/go-simplejson
+- package: github.com/go-sql-driver/mysql

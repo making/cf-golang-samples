@@ -1,7 +1,8 @@
 applications:
 - name: hello-go-redis
   memory: 32m
-  buildpack: go_buildpack
-  command: redis
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git#v1.7.12  
   services:
   - redis-db
+  env:
+    GOVERSION: go1.7

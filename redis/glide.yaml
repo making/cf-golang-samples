@@ -1,0 +1,6 @@
+package: github.com/making/cf-go-samples/redis
+import:
+- package: github.com/cloudfoundry-community/go-cfenv
+- package: github.com/garyburd/redigo
+  subpackages:
+  - redis

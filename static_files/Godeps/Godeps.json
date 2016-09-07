@@ -1,6 +1,0 @@
-{
-	"ImportPath": "github.com/making/cf-go-samples/static_files",
-	"GoVersion": "go1.6",
-	"GodepVersion": "v61",
-	"Deps": []
-}
