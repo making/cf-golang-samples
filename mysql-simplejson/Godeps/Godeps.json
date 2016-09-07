@@ -1,0 +1,17 @@
+{
+	"ImportPath": "github.com/making/cf-go-samples/mysql-simplejson",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v61",
+	"Deps": [
+		{
+			"ImportPath": "github.com/bitly/go-simplejson",
+			"Comment": "v0.5.0",
+			"Rev": "aabad6e819789e569bd6aabf444c935aa9ba1e44"
+		},
+		{
+			"ImportPath": "github.com/go-sql-driver/mysql",
+			"Comment": "v1.2-196-g3654d25",
+			"Rev": "3654d25ec346ee8ce71a68431025458d52a38ac0"
+		}
+	]
+}
