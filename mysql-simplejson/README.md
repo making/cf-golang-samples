@@ -11,6 +11,8 @@ App runs on [http://hello-go-mysql.local.pcfdev.io](http://hello-go-mysql.local.
 
 ## Running on [Pivotal Web Services](https://run.pivotal.io)
 
+[This line](https://github.com/making/cf-golang-samples/blob/master/mysql-simplejson/mysql.go#L60) needs to be changed to `cleardb`...
+
 ``` console
 $ cf create-service cleardb spark mysql-db
 $ cf push --random-route
