@@ -1,6 +1,6 @@
 applications:
 - name: hello-go-helloworld
   memory: 8m
-  buildpack: https://github.com/cloudfoundry/go-buildpack.git#v1.7.12  
+  buildpack: go_buildpack
   env:
     GOVERSION: go1.7
