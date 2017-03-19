@@ -1,7 +1,7 @@
 applications:
 - name: hello-go-mysql
   memory: 32m
-  buildpack: go_buildpack
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git#v1.7.12
   services:
   - mysql-db
   env:
